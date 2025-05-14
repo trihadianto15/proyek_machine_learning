@@ -38,20 +38,49 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
     - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle]([http==(https://www.kaggle.com/code/cairncorreia/diabetes-prediction-and-analysis).
+Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/code/cairncorreia/diabetes-prediction-and-analysis).
 
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
 ### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+- index: Nomor urut dari data.
+- Patient Id: ID unik setiap pasien
+- Age: Usia pasien.
+- Gender: Jenis kelamin pasien.
+- Air Pollution: Paparan terhadap polusi udara.
+- Alcohol use: Konsumsi alkohol.
+- Dust Allergy: Riwayat alergi debu.
+- OccuPational Hazards: Risiko yang terkait dengan pekerjaan.
+- Genetic Risk: Risiko genetik yang diturunkan dari keluarga.
+- chronic Lung Disease: Riwayat penyakit paru-paru kronis.
+- Balanced Diet: Pola makan sehat atau tidak.
+- Obesity: Kondisi berat badan berlebih.
+- Smoking: Riwayat merokok aktif.
+- Passive Smoker: Paparan asap rokok secara pasif (perokok pasif).
+- Chest Pain: Nyeri dada.
+- Coughing of Blood: Batuk berdarah.
+- Fatigue: Kelelahan.
+- Weight Loss: Penurunan berat badan.
+- Shortness of Breath: Sesak napas.
+- Wheezing: Bunyi mengi saat bernapas.
+- Swallowing Difficulty: Kesulitan menelan.
+- Clubbing of Finger Nails: Perubahan bentuk kuku jari (tanda penyakit paru).
+- Frequent Cold: Sering mengalami flu/pilek.
+- Dry Cough: Batuk kering.
+- Snoring: Mendengkur saat tidur.
+- Level: Tingkat keparahan kanker (misalnya: Low, Medium, High).
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+- Melihat jenis dan banyak data
+- Melihat Missing Value
+- Melihat Data Duplikat
+- Melihat Outlier
+- Melihat Distribusi data
+- Encoding
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan proses data preparation yang dilakukan
@@ -59,6 +88,9 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 
 ## Modeling
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
+- Menggunakan parameter Random Forest
+- Menggunakan parameter KNN
+- Menggunakan parameter Ada Boost
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
