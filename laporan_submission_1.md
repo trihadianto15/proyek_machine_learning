@@ -11,21 +11,19 @@ Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek
 - Sumber yang bisa digunakan [Scholar](https://scholar.google.com/)
 
 ## Business Understanding
-
 Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
 
 Bagian laporan ini mencakup:
 
 ### Problem Statements
-
 Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+
+- Bagaimana pengaruh faktor gaya hidup terhadap tingkat keparahan kanker pasien? 
+- Apakah faktor genetik dan lingkungan memiliki hubungan yang signifikan terhadap risiko kanker?
 
 ### Goals
-
 Menjelaskan tujuan dari pernyataan masalah:
+
 - Jawaban pernyataan masalah 1
 - Jawaban pernyataan masalah 2
 - Jawaban pernyataan masalah n
@@ -40,7 +38,7 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
     - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle]([http==(https://www.kaggle.com/code/cairncorreia/diabetes-prediction-and-analysis).
 
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
