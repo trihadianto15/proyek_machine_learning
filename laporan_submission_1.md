@@ -24,8 +24,8 @@ Menjelaskan pernyataan masalah latar belakang:
 ### Goals
 Menjelaskan tujuan dari pernyataan masalah:
 
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
+- Melihat faktor gaya hidup apa yang menyebabkan keparahan pada kanker 
+- Seberapa berpengaruh genetik dan lingkungan terhadap
 - Jawaban pernyataan masalah n
 
 Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
@@ -88,9 +88,9 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 
 ## Modeling
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
-- Menggunakan parameter Random Forest
-- Menggunakan parameter KNN
-- Menggunakan parameter Ada Boost
+- Menggunakan Random Forest
+- Menggunakan KNN
+- Menggunakan Ada Boost
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
@@ -99,9 +99,15 @@ Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyel
 
 ## Evaluation
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
+Menggunakan metrik **akurasi, precision, recall, dan F1 score** dan **Confusion metrik**.
 
 Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
-- Penjelasan mengenai metrik yang digunakan
+- **Akurasi** adalah ukuran dari berapa banyak prediksi model yang benar, baik itu positif maupun negatif, dibandingkan dengan total jumlah data.
+- **Precision** mengukur seberapa banyak dari prediksi positif yang benar-benar positif. Jadi, ini menunjukkan keakuratan prediksi positif.
+- **Recall** mengukur seberapa banyak data yang sebenarnya positif berhasil ditemukan oleh model. Ini menunjukkan kemampuan model dalam menangkap kasus positif.
+- **F1 Score** adalah rata-rata harmonik dari presisi dan recall. Ini digunakan untuk menyeimbangkan keduanya, apalagi jika datamu tidak seimbang.
+- **Confusion matrix** adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Tabel ini menunjukkan jumlah prediksi yang benar dan salah yang dibuat oleh model.
+- 
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
