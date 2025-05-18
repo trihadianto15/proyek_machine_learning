@@ -36,7 +36,7 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
     - Menggunakan 3 algoritma yaitu, RandomForest, K-NN, dan AdaBoost
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/code/cairncorreia/diabetes-prediction-and-analysis).
+Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/datasets/rishidamarla/cancer-patients-data).
 
 Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
@@ -92,7 +92,7 @@ Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyel
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 
-- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **saya memilih algoritma RandomForest karena model bisa mencapai akurasi 1.00**.
+- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **saya memilih algoritma terbaik yaitu RandomForest karena model bisa mencapai akurasi 1.00**.
 
 ## Evaluation
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
