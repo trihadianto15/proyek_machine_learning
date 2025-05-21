@@ -94,8 +94,9 @@ Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyel
 - Menggunakan Ada Boost
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-
-- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **saya memilih algoritma terbaik yaitu RandomForest karena model bisa mencapai akurasi 1.00**.
+- Random Forest adalah algoritma ensemble berbasis pohon keputusan yang membangun banyak decision tree dan menggabungkan hasilnya (melalui voting atau rata-rata) untuk membuat prediksi yang lebih akurat dan stabil. Menggunakan 50 n_estimators dan random state 42.
+- KNN adalah algoritma yang mengklasifikasikan data berdasarkan kemiripan dengan data tetangga terdekatnya. Menggunakan 50 n_neighbors.
+- AdaBoost adalah algoritma boosting yang membentuk model kuat dari banyak model lemah, dengan menyesuaikan bobot data yang sulit diklasifikasikan secara benar oleh model sebelumnya. Menggunakan learning_rate 0.05 dan random_state 42.
 
 ## Evaluation
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
@@ -109,5 +110,11 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - **Confusion matrix** adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Tabel ini menunjukkan jumlah prediksi yang benar dan salah yang dibuat oleh model.
 - 
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
+- Akurasi dari evaluasi model random forest menunjukan hasil sebesar 1.00
+- Akurasi dari evaluasi model Knn menunjukan hasil sebesar 0.95
+- Akurasi dari evaluasi model Ada Boost menunjukan hasil sebesar 0.99
 
+- Dari hasil akurasi tersebut random forest menjadi model yang paling terbaik dengan akurasi mencapai 1.00
+  
+- **Hubungkan dengan business understanding**
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
