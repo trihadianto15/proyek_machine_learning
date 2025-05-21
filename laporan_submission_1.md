@@ -69,20 +69,23 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 - Level: Tingkat keparahan kanker (misalnya: Low, Medium, High).
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-- Melihat distribusi tingkat keparahan kanker dengan variabel lain 
+- Dataset berjumlah 1000 baris dan 26 kolom dengan tipe data int dan object.
+- Dataset tidak memiliki missing value dan duplikat, jadi dataset bisa langsung digunakan untuk penelitian.
+- Dataset tidak mempunyai data oulier
+- Melihat distribusi tingkat keparahan kanker dengan variabel lain. 
 
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
-- Melihat jenis dan banyak data
-- Melihat Missing Value
-- Melihat Data Duplikat
-- Melihat Outlier
-- Melihat Distribusi data
+- Menghapus fitur 
 - Encoding
+- Data split
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+- Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai 
+- Menghapus fitur level(tingkat keparahan kanker) karena akan dilakukan encoding dengan mengubah data menjadi numerik.
+- Kolom level diubah menggunakan label encoder, karena nilai dari kolom tersebut lebih dari 2, yaitu low, medium, high dan diubah menjadi 1 = low, 2 = medium, dan 0 = high.
+- Kemudian, dataset dibagi menjadi 80% data latih dan 20% data validasi.
+  
 
 ## Modeling
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
@@ -108,13 +111,3 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
-
-**---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
-
