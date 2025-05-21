@@ -2,7 +2,11 @@
 
 ## Domain Proyek
 
-Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Kanker adalah penyakit di mana sel-sel tubuh berkembang
+secara abnormal dan tidak terkendali. Tubuh kita terdiri dari
+milyaran sel-sel, seperti batu bata yang menyusun struktur rumah.
+Setiap organ tubuh, seperti jantung, paru-paru, otot, tulang dan
+kulit memiliki struktur sel yang berbeda-beda
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
