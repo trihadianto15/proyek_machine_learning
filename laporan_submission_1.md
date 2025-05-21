@@ -2,17 +2,16 @@
 
 ## Domain Proyek
 
-Kanker adalah penyakit di mana sel-sel tubuh berkembang
-secara abnormal dan tidak terkendali. Tubuh kita terdiri dari
-milyaran sel-sel, seperti batu bata yang menyusun struktur rumah.
-Setiap organ tubuh, seperti jantung, paru-paru, otot, tulang dan
-kulit memiliki struktur sel yang berbeda-beda
+Kanker adalah penyakit di mana sel-sel tubuh berkembang secara abnormal dan tidak terkendali. Tubuh kita terdiri dari milyaran sel-sel, seperti batu bata yang menyusun struktur rumah. Setiap organ tubuh, seperti jantung, paru-paru, otot, tulang dan kulit memiliki struktur sel yang berbeda-beda. Jumlah kasus kanker di Indonesia terus meningkat dan diprediksi melonjak hingga lebih dari 70 persen pada 2050 jika langkah pencegahan dan deteksi dini tidak diperkuat. Saat ini, sekitar 400 ribu kasus baru kanker terdeteksi setiap tahunnya, dengan angka kematian mencapai 240 ribu kasus.  kurangnya informasi mengenai gaya hidup sehat, pola makan sehat, aktivitas fisik yang baik, dan genetik dapat menjadi penyebab munculnya penyakit kanker. 
+
+Dari latar belakang tersebut saya ingin mengetahui faktor-faktor yang menyebabkan munculnya penyakit kanker
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-- Format Referensi dapat mengacu pada penulisan sitasi [IEEE](https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf), [APA](https://www.mendeley.com/guides/apa-citation-guide/) atau secara umum seperti [di sini](https://penerbitdeepublish.com/menulis-buku-membuat-sitasi-dengan-mudah/)
+
+- Masalah ini harus diselesaikan dengan harapan bisa menurunkan atau mencegah muncul nya kasus kanker yang semakin meningkat
+- Dengan menggunakan dataset kanker dengan beberapa faktor seperti konsumsi alcohol, merokok, genetik dan beberapa faktor lainnya untuk melihat faktor yang mana memiliki hubungan terhadap kanker
 - Sumber yang bisa digunakan [Scholar](https://scholar.google.com/)
+- Referensi [Scholar](https://repository.penerbitwidina.com/media/publications/565137-makanan-dan-gaya-hidupmu-penyebab-kanker-fa43cb26.pdf)
 
 ## Business Understanding
 Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
