@@ -118,6 +118,8 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - Akurasi dari evaluasi model Ada Boost menunjukan hasil sebesar 0.99
 
 - Dari hasil akurasi tersebut random forest menjadi model yang paling terbaik dengan akurasi mencapai 1.00
-  
-- **Hubungkan dengan business understanding**
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
+
+**Hubungkan dengan business understanding**
+- Dari hasil tersebut faktor gaya hidup seperti konsumsi alkohol dan merokok memiliki pengaruh yang lumayan signifikan dalam kanker.
+- Dan faktor lingkungan seperti perokok pasif dan polusi udara juga memiliki pengaruh besar dalam penyakit kanker.
+- Sedangkan untuk faktor genetik tidak terlalu berpengaruh signifikan dalam kanker dibanding faktor yang lain 
