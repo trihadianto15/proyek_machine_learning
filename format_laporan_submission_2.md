@@ -1,14 +1,15 @@
-# Laporan Proyek Machine Learning - Nama Anda
+# Laporan Proyek Machine Learning - Tri Hadianto
 
 ## Project Overview
 
-Pada bagian ini, Kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Banyak orang ingin mulai membaca buku untuk menambah wawasan atau sebagai kegiatan positif di waktu luang. Namun, tidak sedikit yang justru merasa kebingungan saat harus memilih buku pertama yang sesuai dengan minat mereka. Tanpa referensi yang jelas atau pengalaman sebelumnya, proses memilih buku bisa menjadi hambatan awal yang membuat semangat membaca menurun.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-- Format Referensi dapat mengacu pada penulisan sitasi [IEEE](https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf), [APA](https://www.mendeley.com/guides/apa-citation-guide/) atau secara umum seperti [di sini](https://penerbitdeepublish.com/menulis-buku-membuat-sitasi-dengan-mudah/)
-- Sumber yang bisa digunakan [Scholar](https://scholar.google.com/)
+- Masalah yang harus diselesaikan :
+  Tanpa rekomendasi atau panduan yang tepat, mereka cenderung merasa tidak yakin, berujung pada kehilangan minat untuk mulai membaca. Hal ini menjadi tantangan besar dalam upaya meningkatkan budaya literasi, terutama di kalangan generasi muda.
+  
+- bagaimana cara menyelesaikannya
+  Mengumpulkan data minat pengguna dan Menganalisis karakteristik buku
 
 ## Business Understanding
 
@@ -19,34 +20,35 @@ Bagian laporan ini mencakup:
 ### Problem Statements
 
 Menjelaskan pernyataan masalah:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+- Tidak adanya pengalaman atau referensi membuat pembaca pemula kesulitan menentukan buku yang tepat untuk dibaca.
+- Belum tersedia sistem rekomendasi yang dirancang khusus untuk membantu pembaca pemula menemukan buku yang cocok secara personal.
 
 ### Goals
 
 Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
-
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
+- Untuk membantu pembaca pemula yang tidak memiliki pengalaman atau referensi dalam memilih buku, dapat dikembangkan sistem rekomendasi yang memberikan saran buku berdasarkan preferensi awal yang sederhana.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Menambahkan bagian “Solution Approach” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
 
     ### Solution statements
-    - Mengajukan 2 atau lebih solution approach (algoritma atau pendekatan sistem rekomendasi).
-
+    - Menggunakan content based filtering dan user based collaborative filtering
+      
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)).
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
 Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+- ISBN : Id unik buku
+- Book-Title: Judul buku
+- Book-Author: Nama penulis
+- Year-Of-Publication: Tahun terbit
+- Publisher: Nama penerbit
+- User-ID: ID unik pengguna
+- Book-Rating: Nilai rating yang diberikan pengguna ke buku
+- Location: Lokasi pengguna
+- Age: Usia pengguna
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data beserta insight atau exploratory data analysis.
