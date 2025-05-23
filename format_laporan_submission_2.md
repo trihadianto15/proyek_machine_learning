@@ -39,7 +39,7 @@ Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi dat
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
-Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
+Variabel-variabel pada dataset adalah sebagai berikut:
 - ISBN : Id unik buku
 - Book-Title: Judul buku
 - Book-Author: Nama penulis
