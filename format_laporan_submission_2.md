@@ -8,7 +8,7 @@ Banyak orang ingin mulai membaca buku untuk menambah wawasan atau sebagai kegiat
 - Masalah yang harus diselesaikan :
   Tanpa rekomendasi atau panduan yang tepat, mereka cenderung merasa tidak yakin, berujung pada kehilangan minat untuk mulai membaca. Hal ini menjadi tantangan besar dalam upaya meningkatkan budaya literasi, terutama di kalangan generasi muda.
   
-- bagaimana cara menyelesaikannya
+- bagaimana cara menyelesaikannya :
   Mengumpulkan data minat pengguna dan Menganalisis karakteristik buku
 
 ## Business Understanding
