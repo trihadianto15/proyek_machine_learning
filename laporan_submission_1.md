@@ -114,17 +114,31 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - hasil dari evaluasi model **random forest** menunjukan hasil sebesar :
 
   
-                precision    recall  f1-score  
+               precision    recall  f1-score 
+
+        High       1.00      1.00      1.00
+         Low       1.00      1.00      1.00
+      Medium       1.00      1.00      1.00
+
+    dengan accuracy 1.00
+
+  Confusion Matrix:
+        High  Low  Medium
+High      82    0       0
+Low        0   55       0
+Medium     0    0      63
+    
+- hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
+
+  
+        precision    recall  f1-score  
         High       0.94      1.00      0.97    
          Low       0.98      0.89      0.93    
       Medium       0.94      0.94      0.94
-    accuracy                           0.95
-    
-- hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
-- Akurasi : 1.00
-- Precision : 1.00
-- Recall : 1.00
-- F1-Score : 1.00
+  
+    dengan accuracy  0.95
+
+  
 - Akurasi dari evaluasi model Ada Boost menunjukan hasil sebesar 0.99
 
 - Dari hasil akurasi tersebut random forest menjadi model yang paling terbaik dengan akurasi mencapai 1.00
