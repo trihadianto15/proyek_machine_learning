@@ -81,7 +81,7 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai
-- Melihat distribusi fitur dengan label(level)
+- Melihat distribusi fitur dengan fitur level
 - Melakukan encoding fitur(level) menjadi fitur(level_encoded)
 - Menghapus fitur level
 - Memisahkan fitur level_encoded
