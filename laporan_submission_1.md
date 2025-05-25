@@ -132,17 +132,39 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
 
   
-        precision    recall  f1-score  
+                precision    recall  f1-score  
         High       0.94      1.00      0.97    
          Low       0.98      0.89      0.93    
       Medium       0.94      0.94      0.94
-  
-    dengan accuracy  0.95
+      accuracy                         0.95
 
   
-- Akurasi dari evaluasi model Ada Boost menunjukan hasil sebesar 0.99
+      Confusion Matrix:
 
-- Dari hasil akurasi tersebut random forest menjadi model yang paling terbaik dengan akurasi mencapai 1.00
+                High  Low  Medium
+      High      82    0       0
+      Low        2   49       4
+      Medium     3    1      59
+  
+  
+- hasil dari evaluasi model **Ada Boost** menunjukan hasil sebesar :
+
+                precision    recall  f1-score 
+
+        High       1.00      1.00      1.00   
+         Low       0.96      1.00      0.98   
+      Medium       1.00      0.97      0.98   
+      accuracy                         0.99
+
+
+      Confusion Matrix :
+                High  Low  Medium
+      High       82    0       0
+      Low        0     55      0
+      Medium     0     2      61
+  
+
+- Dari hasil akurasi tersebut **random forest** menjadi model yang paling terbaik dengan akurasi mencapai 1.00
 
 **Hubungkan dengan business understanding**
 - Dari hasil tersebut faktor gaya hidup seperti konsumsi alkohol dan merokok memiliki pengaruh yang lumayan signifikan dalam kanker.
