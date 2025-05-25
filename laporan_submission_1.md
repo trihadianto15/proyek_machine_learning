@@ -75,13 +75,17 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
-- Menghapus fitur 
+- Menghapus fitur
 - Encoding
 - Data split
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai 
-- 
+- Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai
+- Melihat distribusi fitur dengan label(level)
+- Melakukan encoding fitur(level) menjadi fitur(level_encoded)
+- Menghapus fitur level
+- Memisahkan fitur level_encoded
+- Membagi dataset menjadi 80% data latih dan 20% data validasi
   
 
 ## Modeling
@@ -107,8 +111,22 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - **Confusion matrix** adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Tabel ini menunjukkan jumlah prediksi yang benar dan salah yang dibuat oleh model.
 - 
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
-- Akurasi dari evaluasi model random forest menunjukan hasil sebesar 1.00
-- Akurasi dari evaluasi model Knn menunjukan hasil sebesar 0.95
+- hasil dari evaluasi model **random forest** menunjukan hasil sebesar :
+                precision    recall  f1-score   support
+
+        High       0.94      1.00      0.97        82
+         Low       0.98      0.89      0.93        55
+      Medium       0.94      0.94      0.94        63
+
+    accuracy                           0.95       200
+   macro avg       0.95      0.94      0.95       200
+weighted avg       0.95      0.95      0.95       200
+  
+- hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
+- Akurasi : 1.00
+- Precision : 1.00
+- Recall : 1.00
+- F1-Score : 1.00
 - Akurasi dari evaluasi model Ada Boost menunjukan hasil sebesar 0.99
 
 - Dari hasil akurasi tersebut random forest menjadi model yang paling terbaik dengan akurasi mencapai 1.00
