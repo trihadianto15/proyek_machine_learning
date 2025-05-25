@@ -14,10 +14,6 @@ Dari latar belakang tersebut saya ingin mengetahui faktor-faktor yang menyebabka
 - Referensi [Scholar](https://repository.penerbitwidina.com/media/publications/565137-makanan-dan-gaya-hidupmu-penyebab-kanker-fa43cb26.pdf)
 
 ## Business Understanding
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
-
-Bagian laporan ini mencakup:
-
 ### Problem Statements
 Menjelaskan pernyataan masalah latar belakang:
 
