@@ -118,7 +118,6 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
         High       0.94      1.00      0.97    
          Low       0.98      0.89      0.93    
       Medium       0.94      0.94      0.94
-   
     accuracy                           0.95
     
 - hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
