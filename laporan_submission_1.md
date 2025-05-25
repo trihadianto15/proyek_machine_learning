@@ -112,16 +112,12 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - 
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
 - hasil dari evaluasi model **random forest** menunjukan hasil sebesar :
-                precision    recall  f1-score   support
-
-        High       0.94      1.00      0.97        82
-         Low       0.98      0.89      0.93        55
-      Medium       0.94      0.94      0.94        63
-
-    accuracy                           0.95       200
-   macro avg       0.95      0.94      0.95       200
-weighted avg       0.95      0.95      0.95       200
-  
+                precision    recall  f1-score  
+        High       0.94      1.00      0.97    
+         Low       0.98      0.89      0.93    
+      Medium       0.94      0.94      0.94    
+    accuracy                           0.95
+    
 - hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
 - Akurasi : 1.00
 - Precision : 1.00
