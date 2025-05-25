@@ -119,8 +119,7 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
         High       1.00      1.00      1.00
          Low       1.00      1.00      1.00
       Medium       1.00      1.00      1.00
-
-    dengan accuracy 1.00
+      accuracy                         1.00
 
   Confusion Matrix:
   
