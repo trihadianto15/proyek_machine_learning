@@ -123,10 +123,15 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
     dengan accuracy 1.00
 
   Confusion Matrix:
+  
         High  Low  Medium
+  
 High      82    0       0
+
 Low        0   55       0
+
 Medium     0    0      63
+
     
 - hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
 
