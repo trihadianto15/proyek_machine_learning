@@ -109,13 +109,16 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 - **Recall** mengukur seberapa banyak data yang sebenarnya positif berhasil ditemukan oleh model. Ini menunjukkan kemampuan model dalam menangkap kasus positif.
 - **F1 Score** adalah rata-rata harmonik dari presisi dan recall. Ini digunakan untuk menyeimbangkan keduanya, apalagi jika datamu tidak seimbang.
 - **Confusion matrix** adalah tabel yang digunakan untuk mengevaluasi kinerja model klasifikasi. Tabel ini menunjukkan jumlah prediksi yang benar dan salah yang dibuat oleh model.
-- 
+  
 - Menjelaskan hasil proyek berdasarkan metrik evaluasi
 - hasil dari evaluasi model **random forest** menunjukan hasil sebesar :
+
+  
                 precision    recall  f1-score  
         High       0.94      1.00      0.97    
          Low       0.98      0.89      0.93    
-      Medium       0.94      0.94      0.94    
+      Medium       0.94      0.94      0.94
+   
     accuracy                           0.95
     
 - hasil dari evaluasi model **KNN** menunjukan hasil sebesar :
