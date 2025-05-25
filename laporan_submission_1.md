@@ -85,9 +85,7 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai 
-- Menghapus fitur level(tingkat keparahan kanker) karena akan dilakukan encoding dengan mengubah data menjadi numerik.
-- Kolom level diubah menggunakan label encoder, karena nilai dari kolom tersebut lebih dari 2, yaitu low, medium, high dan diubah menjadi 1 = low, 2 = medium, dan 0 = high.
-- Kemudian, dataset dibagi menjadi 80% data latih dan 20% data validasi.
+- 
   
 
 ## Modeling
