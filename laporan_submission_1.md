@@ -78,6 +78,7 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 - Menghapus fitur
 - Encoding
 - Data split
+- Standarisasi
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menghapus fitur patient Id dan index karena tidak terlalu relevan dengan apa yang ingin saya capai
@@ -86,6 +87,7 @@ Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dil
 - Menghapus fitur level
 - Memisahkan fitur level_encoded
 - Membagi dataset menjadi 80% data latih dan 20% data validasi
+- Melakukan StandarScaler
   
 
 ## Modeling
