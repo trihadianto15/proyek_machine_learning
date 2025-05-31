@@ -25,7 +25,7 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Untuk membantu pembaca pemula yang tidak memiliki pengalaman atau referensi dalam memilih buku, dapat dikembangkan sistem rekomendasi yang memberikan saran buku berdasarkan preferensi awal yang sederhana.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-    ### Solution statements
+### Solution statements
     - Menggunakan content based filtering dan user based collaborative filtering
       
 ## Data Understanding
@@ -100,18 +100,19 @@ Akurasi
 Loss dan RMSE
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-- Content based filltering
-Akurasi = Jumlah buku yang direkomendasikan dari penulis tersebut / Total buku oleh penulis tersebut
-Hasil akurasi rekomendasi berdasarkan author: 0.20
+- Content based filltering :
+- Akurasi = Jumlah buku yang direkomendasikan dari penulis tersebut / Total buku oleh penulis tersebut
+  
+     Hasil akurasi rekomendasi berdasarkan author: 0.20
 
-- User based collaborative
-Loss mengukur seberapa jauh prediksi model dari nilai sebenarnya.
-Root Mean Squared Error adalah akar dari MSE (loss).
+- User based collaborative : 
+- Loss mengukur seberapa jauh prediksi model dari nilai sebenarnya.
+- Root Mean Squared Error adalah akar dari MSE (loss).
 
-Hasil nya sebesar : 
+     Hasil nya sebesar : 
 
-loss: 0.0269 
-root_mean_squared_error: 0.0962 
-val_loss: 0.1759 
-val_root_mean_squared_error: 0.3970
+     loss: 0.0269 
+     root_mean_squared_error: 0.0962 
+     val_loss: 0.1759 
+     val_root_mean_squared_error: 0.3970
 
