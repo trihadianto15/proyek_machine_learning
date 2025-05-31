@@ -103,7 +103,7 @@ Loss dan RMSE
 - Content based filltering :
 - Akurasi = Jumlah buku yang direkomendasikan dari penulis tersebut / Total buku oleh penulis tersebut
   
-     Hasil akurasi rekomendasi berdasarkan author: 0.20
+              Hasil akurasi rekomendasi berdasarkan author: 0.20
 
 - User based collaborative : 
 - Loss mengukur seberapa jauh prediksi model dari nilai sebenarnya.
