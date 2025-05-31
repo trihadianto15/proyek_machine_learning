@@ -108,14 +108,10 @@ Loss dan RMSE
 - User based collaborative : 
 - Loss mengukur seberapa jauh prediksi model dari nilai sebenarnya.
 - Root Mean Squared Error adalah akar dari MSE (loss).
-
-     Hasil nya sebesar : 
-
-     loss: 0.0269
   
-     root_mean_squared_error: 0.0962
-  
-     val_loss: 0.1759
-  
-     val_root_mean_squared_error: 0.3970
+              Hasil nya sebesar : 
+              loss: 0.0269
+              root_mean_squared_error: 0.0962
+              val_loss: 0.1759
+              val_root_mean_squared_error: 0.3970
 
