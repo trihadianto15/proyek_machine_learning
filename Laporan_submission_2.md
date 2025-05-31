@@ -25,7 +25,6 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Untuk membantu pembaca pemula yang tidak memiliki pengalaman atau referensi dalam memilih buku, dapat dikembangkan sistem rekomendasi yang memberikan saran buku berdasarkan preferensi awal yang sederhana.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-
     ### Solution statements
     - Menggunakan content based filtering dan user based collaborative filtering
       
