@@ -26,7 +26,7 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 ### Solution statements
-    - Menggunakan content based filtering dan user based collaborative filtering
+- Menggunakan content based filtering dan user based collaborative filtering
       
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset).
@@ -111,8 +111,11 @@ Loss dan RMSE
 
      Hasil nya sebesar : 
 
-     loss: 0.0269 
-     root_mean_squared_error: 0.0962 
-     val_loss: 0.1759 
+     loss: 0.0269
+  
+     root_mean_squared_error: 0.0962
+  
+     val_loss: 0.1759
+  
      val_root_mean_squared_error: 0.3970
 
