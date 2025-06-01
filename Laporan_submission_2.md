@@ -105,18 +105,23 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 
 **Top-N Rekomendasi**
 - Content base filtering :
-  
-            title	                                 author
-         0	seeds of yesterday (dollanganger)	 v.c. andrews
-         1	dawn (cutler)	                         v.c. andrews
-         2	pearl in the mist (landry)	         v.c. andrews
-         3	jardin sombrio / garden of shadows 	 v. c. andrews
-         4	into the woods	                         v.c. andrews
-         5	ruby (landry saga (hardcover))	         v.c. andrews
-         6	raven (orphans)	                         v.c. andrews
-         7	my sweet audrina	                  v.c. andrews
-         8	my sweet audrina	                 v.c. andrews
-         9	heaven (casteel)	                 v.c. andrews
+
+
+  Rekomendasi:
+                                               title           author
+0  the minority report and other classic stories ...   philip k. dick
+1                                     substance mort   philip k. dick
+2                           el hombre en el castillo   philip k. dick
+3                        dr. bloodmoney (p. k. dick)   philip k. dick
+4                          clans of the alphane moon   philip k. dick
+5                                   a scanner darkly   philip k. dick
+6                             auã?â?enseiter. roman.     dick francis
+7                                             reflex     dick francis
+8                                        second wind     dick francis
+9                  funny stories (walker treasuries)  dick king-smith
+
+
+- User base collaborative :
 
 
 ## Evaluation
