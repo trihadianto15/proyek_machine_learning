@@ -106,8 +106,7 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 **Top-N Rekomendasi**
 - Content base filtering :
 
-
-  Rekomendasi:
+          Rekomendasi:
                                                title           author
 0  the minority report and other classic stories ...   philip k. dick
 1                                     substance mort   philip k. dick
