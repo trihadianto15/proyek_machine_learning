@@ -141,24 +141,36 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 
 ## Evaluation
 - Content based filltering Menggunakan : 
-Akurasi
+Precision@K
 
 - User Based Collaborative menggunakan : 
 Loss dan RMSE
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Content based filltering :
+- Precision@K adalah metrik evaluasi yang digunakan untuk mengukur ketepatan sistem rekomendasi pada K item teratas yang direkomendasikan.
 - Akurasi = Jumlah buku yang direkomendasikan dari penulis tersebut / Total buku oleh penulis tersebut
   
-              Hasil akurasi rekomendasi berdasarkan author: 0.20
+              Hasil evaluasi Precision@10: 0.60
+
 
 - User based collaborative : 
 - Loss mengukur seberapa jauh prediksi model dari nilai sebenarnya.
 - Root Mean Squared Error adalah akar dari MSE (loss).
   
               Hasil nya sebesar : 
-              loss: 0.0269
-              root_mean_squared_error: 0.0962
-              val_loss: 0.1759
-              val_root_mean_squared_error: 0.3970
+              loss: 0.0401
+              root_mean_squared_error: 0.1689
+              val_loss: 0.1720
+              val_root_mean_squared_error: 0.3987
+  
+
+  Dari hasil Precision@k dan loss, RMSE tidak ada hasil terbaik, karena mengukur hal yang berbeda
+  - loss dan RMSE mengukur seberapa akurat model dalam memprediksi skor, sedangkan
+  - Precision@k mengukur seberapa baik model dalam memilih item yang revelan.
+
+ 
+   **Hubungan dengan business understanding**
+- Menggunakan Content base filtering dan User base collaborative berhasil menjawab setiap problem statements, goals.
+- Berhasil membuat atau mengembangkan sistem rekomendasi buku untuk pemula berdasarkan referensi pengguna dan pengguna lain.
 
