@@ -151,7 +151,7 @@ Loss dan RMSE
 - Precision@K adalah metrik evaluasi yang digunakan untuk mengukur ketepatan sistem rekomendasi pada K item teratas yang direkomendasikan.
 - Akurasi = Jumlah buku yang direkomendasikan dari penulis tersebut / Total buku oleh penulis tersebut
   
-              Hasil evaluasi Precision@10: 0.60
+              Hasil evaluasi Precision@K: 0.60
 
 
 - User based collaborative : 
