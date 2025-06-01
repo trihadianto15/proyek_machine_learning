@@ -23,13 +23,14 @@ Menjelaskan pernyataan masalah:
 
 Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Untuk membantu pembaca pemula yang tidak memiliki pengalaman atau referensi dalam memilih buku, dapat dikembangkan sistem rekomendasi yang memberikan saran buku berdasarkan preferensi awal yang sederhana.
+- Mengembangkan sistem rekomendasi buku untuk pembaca pemula dengan menggunakan dua pendekatan berbeda, yaitu berdasarkan referensi pengguna dan referensi pengguna lain.  
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 ### Solution statements
 - Menggunakan content based filtering dan user based collaborative filtering
       
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset).
+Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle]([https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)).
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
