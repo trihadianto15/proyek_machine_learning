@@ -107,16 +107,16 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Content base filtering :
   
             title	                                 author
-         0	seeds of yesterday (dollanganger)	    v.c. andrews
-         1	dawn (cutler)	                        v.c. andrews
+         0	seeds of yesterday (dollanganger)	  v.c. andrews
+         1	dawn (cutler)	                         v.c. andrews
          2	pearl in the mist (landry)	         v.c. andrews
          3	jardin sombrio / garden of shadows 	 v. c. andrews
          4	into the woods	                         v.c. andrews
          5	ruby (landry saga (hardcover))	         v.c. andrews
          6	raven (orphans)	                         v.c. andrews
          7	my sweet audrina	                      v.c. andrews
-         8	my sweet audrina	                v.c. andrews
-         9	heaven (casteel)	                v.c. andrews
+         8	my sweet audrina	                 v.c. andrews
+         9	heaven (casteel)	                 v.c. andrews
 
 
 ## Evaluation
