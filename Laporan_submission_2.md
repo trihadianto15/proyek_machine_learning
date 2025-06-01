@@ -107,17 +107,17 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Content base filtering :
 
           Rekomendasi:
-                                               title           author
-    0  the minority report and other classic stories ...   philip k. dick
-    1                                     substance mort   philip k. dick
-    2                           el hombre en el castillo   philip k. dick
-    3                        dr. bloodmoney (p. k. dick)   philip k. dick
-    4                          clans of the alphane moon   philip k. dick
-    5                                   a scanner darkly   philip k. dick
-    6                             auã?â?enseiter. roman.     dick francis
-    7                                             reflex     dick francis
-    8                                        second wind     dick francis
-    9                  funny stories (walker treasuries)  dick king-smith
+                                               title                author
+          0  the minority report and other classic stories ...   philip k. dick
+          1                                     substance mort   philip k. dick
+          2                           el hombre en el castillo   philip k. dick
+          3                        dr. bloodmoney (p. k. dick)   philip k. dick
+          4                          clans of the alphane moon   philip k. dick
+          5                                   a scanner darkly   philip k. dick
+          6                             auã?â?enseiter. roman.     dick francis
+          7                                             reflex     dick francis
+          8                                        second wind     dick francis
+          9                  funny stories (walker treasuries)  dick king-smith
 
 
 - User base collaborative :
