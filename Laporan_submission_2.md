@@ -97,13 +97,27 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Menggunakan User based collaborative
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-Untuk Content base filtering Menggunakan : 
+
+- Content base filtering bekerja dengan merekomendasikan item berdasarkan kemiripan konten antara item yang disukai pengguna dengan item lain. 
 - Cosine digunakan untuk melihat kemiripan antar vektor
+- User base collaborative bekerja dengan merekomendasikan item berdasarkan kesamaan antar pengguna.
+- RecommenderNet adalah model neural network sederhana berbasis embedding yang belajar dari interaksi (rating) antara user dan item.
 
+**Top-N Rekomendasi**
+- Content base filtering :
+  
+            title	                                author
+         0	seeds of yesterday (dollanganger)	v.c. andrews
+         1	dawn (cutler)	                    v.c. andrews
+         2	pearl in the mist (landry)	       v.c. andrews
+3	jardin sombrio / garden of shadows (jet de pla...	v. c. andrews
+4	into the woods	v.c. andrews
+5	ruby (landry saga (hardcover))	v.c. andrews
+6	raven (orphans)	v.c. andrews
+7	my sweet audrina	v.c. andrews
+8	my sweet audrina	v.c. andrews
+9	heaven (casteel)	v.c. andrews
 
-
-Untuk User based collaborative menggunakan :
-- RecommenderNet adalah model neural network sederhana berbasis embedding yang belajar dari interaksi (rating) antara user dan item. 
 
 ## Evaluation
 - Content based filltering Menggunakan : 
