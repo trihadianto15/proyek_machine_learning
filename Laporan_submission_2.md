@@ -122,6 +122,22 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 
 - User base collaborative :
 
+     Rekomendasi Buku untuk User 127539
+     Total rekomendasi ditampilkan: 10
+     --------------------------------------------------------------------------------------------------------------
+     No   Judul                                              Penulis                        Rating Prediksi
+     --------------------------------------------------------------------------------------------------------------
+     1    sacred choices: the right to contraception and a   daniel c. maguire              0.71           
+     2    adolphe                                            benjamin constant              0.70           
+     3    unknown woman: a journey to self-discovery         alice koller                   0.69           
+     4    jamestown's american portraits: corn raid: a sto   james lincoln collier          0.69           
+     5    blackwood farm (rice, anne, vampire chronicles.)   anne rice                      0.68           
+     6    the russian revolution (opus s.)                   sheila fitzpatrick             0.68           
+     7    words for murder perhaps                           edward candy                   0.68           
+     8    cruising for murder                                susan sussman                  0.68           
+     9    rightfully mine                                    doris mortman                  0.68           
+     10   pas de deux.                                       philippe djian                 0.68   
+
 
 ## Evaluation
 - Content based filltering Menggunakan : 
