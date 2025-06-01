@@ -30,7 +30,7 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Menggunakan content based filtering dan user based collaborative filtering
       
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle]([https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)).
+Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle]([https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset]).
 
 Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
 
@@ -48,16 +48,17 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Menggunakan dataset books dan ratings
-- Dataset berjumlah 271360 untuk data books dengan tipe data object
-- Dataset berjumlah 1149780 untuk data ratings dengan tipe data int dan object
-- Dataset memiliki missing value pada fitur publisher, book-author dan image-url-l
-- Dataset memiliki jumlah duplikat sebanyak 29225 pada fitur Book-Title
-- Dataset memiliki jumlah duplikat sebanyak 169337 pada fitur Book-Rating
-- Dataset memiliki jumlah duplikat sebanyak 271158 pada fitur Year-Of-Publication
-- Dataset memiliki jumlah duplikat sebanyak 254552 pada fitur Publisher
-- Dataset memiliki jumlah duplikat sebanyak 1044497 pada fitur User-ID
-- Dataset memiliki jumlah duplikat sebanyak 809224 pada fitur ISBN
-- Dataset memiliki jumlah duplikat sebanyak 1149769 pada fitur Book-Rating
+- Dataset berjumlah 271360 baris untuk dataset books dengan tipe data object
+- Dataset berjumlah 1149780 baris untuk data ratings dengan tipe data int dan object
+- Dataset books memiliki missing value pada fitur publisher, book-author dan image-url-l
+- Dataset ratings tidak memiliki missing value
+- Dataset books memiliki jumlah duplikat sebanyak 29225 pada fitur Book-Title
+- Dataset books memiliki jumlah duplikat sebanyak 169337 pada fitur Book-Rating
+- Dataset books memiliki jumlah duplikat sebanyak 271158 pada fitur Year-Of-Publication
+- Dataset books memiliki jumlah duplikat sebanyak 254552 pada fitur Publisher
+- Dataset ratings memiliki jumlah duplikat sebanyak 1044497 pada fitur User-ID
+- Dataset ratings memiliki jumlah duplikat sebanyak 809224 pada fitur ISBN
+- Dataset ratings memiliki jumlah duplikat sebanyak 1149769 pada fitur Book-Rating
 
 ## Data Preparation
 - Merge dataset Books dan Ratings
@@ -68,6 +69,12 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Mengambil 10000 data dari dataset 
 - Memasukan fitur ke dalam list
 - Mengubah jadi dataframe
+- Proses TF-IDF Vectorization
+- encoding fitur user_id dan ISBN dalam indeks integer
+- Membuat kolom baru 'user' dan 'book' berdasarkan data yang sudah di encode
+- Menghitung jumlah user, book, nilai min max pada data dan mengubah fitur rating menjadi float
+- Mengacak data
+- Pemisahan fitur(x) dan target(y) dan Split dataset
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Merge fitur 'ISBN', 'Book-Author', 'Book-Title', 'Year-Of-Publication' pada dataset books dengan ratings, dilakukan agar data lebih rapih
@@ -78,6 +85,12 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Karena data terlalu banyak, jadi saya hanya mengambil 10000 data
 - Memasukan fitur ISBN, book_author, book_rating, book_title, publication ke dalam list
 - Mengubah fitur dalam list menjadi dataframe untuk digunakan dalam penelitian
+- Melakukan Proses TF-IDF pada fitur 'author'
+- Melakukan proses encoding pada fitur user_id dan ISBN
+- Membuat kolom baru 'user' dan 'book' berdasarkan data yang di encoding pada fitur user_id dan ISBN
+- Mengubah fitur rating menjadi float
+- Mengacak data sebelum pemisahan antara fitur dan target dan split dataset
+- Pemisahan fitur dan target dan membagi data menjadi 80% train dan 20% validasi
 
 ## Modeling
 - Menggunakan Content based filtering
@@ -85,7 +98,6 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 Untuk Content base filtering Menggunakan : 
-- TF-IDF Vectorizer digunakan menyaring kata penting dan mengubah menjadi vektor
 - Cosine digunakan untuk melihat kemiripan antar vektor
 
 
