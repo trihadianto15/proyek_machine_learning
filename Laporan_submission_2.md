@@ -30,12 +30,10 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Menggunakan content based filtering dan user based collaborative filtering
       
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset).
-
-Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
+Sumber dataset yang digunakan [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset).
 
 Variabel-variabel pada dataset adalah sebagai berikut:
-- ISBN : Id unik buku
+- ISBN(books) : Id unik buku
 - Book-Title: Judul buku
 - Book-Author: Nama penulis
 - Year-Of-Publication: Tahun terbit
@@ -44,6 +42,7 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Image-URL-M : Link cover buku
 - Image-URL-L : Link cover buku
 - User-ID: ID unik pengguna
+- ISBN(ratings) : Id unik buku
 - Book-Rating: Nilai rating yang diberikan pengguna ke buku
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
@@ -52,6 +51,7 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Dataset berjumlah 1149780 baris untuk data ratings dengan tipe data int dan object
 - Dataset books memiliki missing value pada fitur publisher, book-author dan image-url-l
 - Dataset ratings tidak memiliki missing value
+- Dataset books tidak memiliki duplikat pada fitur ISBN
 - Dataset books memiliki jumlah duplikat sebanyak 29225 pada fitur Book-Title
 - Dataset books memiliki jumlah duplikat sebanyak 169337 pada fitur Book-Rating
 - Dataset books memiliki jumlah duplikat sebanyak 271158 pada fitur Year-Of-Publication
@@ -74,10 +74,12 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Membuat kolom baru 'user' dan 'book' berdasarkan data yang sudah di encode
 - Menghitung jumlah user, book, nilai min max pada data dan mengubah fitur rating menjadi float
 - Mengacak data
-- Pemisahan fitur(x) dan target(y) dan Split dataset
+- Pemisahan fitur(x) dan target(y)
+- Menormalisasi fitur rating
+- Split dataset
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
-- Merge fitur 'ISBN', 'Book-Author', 'Book-Title', 'Year-Of-Publication' pada dataset books dengan ratings, dilakukan agar data lebih rapih
+- Merge fitur 'ISBN', 'Book-Author', 'Book-Title' pada dataset books dengan ratings, dilakukan agar data lebih rapih
 - Menghapus missing value menggunakan perintah 'dropna'
 - Menghapus duplikat dari beberapa fitur seperti User-ID, ISBN, dan Book-Title dengan perintah 'drop-duplicates'
 - Mengubah nama header dari tanda hubung seperti, 'User-ID' menjadi 'user_id' atau 'Book-Title' menjadi 'book_title' dan lain-lain. 
@@ -90,7 +92,9 @@ Variabel-variabel pada dataset adalah sebagai berikut:
 - Membuat kolom baru 'user' dan 'book' berdasarkan data yang di encoding pada fitur user_id dan ISBN
 - Mengubah fitur rating menjadi float
 - Mengacak data sebelum pemisahan antara fitur dan target dan split dataset
-- Pemisahan fitur dan target dan membagi data menjadi 80% train dan 20% validasi
+- Pemisahan fitur dan target
+- Normalisasi fitur targer(rating) menjadi rentang 0 dan 1
+- membagi data menjadi 80% train dan 20% validasi
 
 ## Modeling
 - Menggunakan Content based filtering
