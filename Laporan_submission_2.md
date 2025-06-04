@@ -32,7 +32,18 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 ## Data Understanding
 Sumber dataset yang digunakan [Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset).
 
-Variabel-variabel pada dataset adalah sebagai berikut:
+Daftar file dalam dataset : 
+Archive:  book-recommendation-dataset.zip
+  inflating: Books.csv               
+  inflating: DeepRec.png             
+  inflating: Ratings.csv             
+  inflating: Users.csv               
+  inflating: classicRec.png          
+  inflating: recsys_taxonomy2.png  
+
+Hanya menggunakan dataset Books.csv dan Ratings.csv 
+
+Variabel-variabel pada dataset yang digunakan adalah sebagai berikut:
 - ISBN(books) : Id unik buku
 - Book-Title: Judul buku
 - Book-Author: Nama penulis
