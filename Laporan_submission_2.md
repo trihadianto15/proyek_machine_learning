@@ -64,7 +64,7 @@ Variabel-variabel pada dataset yang digunakan adalah sebagai berikut:
 - Dataset ratings tidak memiliki missing value
 - Dataset books tidak memiliki duplikat pada fitur ISBN
 - Dataset books memiliki jumlah duplikat sebanyak 29225 pada fitur Book-Title
-- Dataset books memiliki jumlah duplikat sebanyak 169337 pada fitur Book-Rating
+- Dataset books memiliki jumlah duplikat sebanyak 169337 pada fitur Book-Author
 - Dataset books memiliki jumlah duplikat sebanyak 271158 pada fitur Year-Of-Publication
 - Dataset books memiliki jumlah duplikat sebanyak 254552 pada fitur Publisher
 - Dataset ratings memiliki jumlah duplikat sebanyak 1044497 pada fitur User-ID
